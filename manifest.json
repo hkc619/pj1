@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "recordVideoTimestamp",
+  "version": "1.0.1",
+  "description": "Record your video timestamp."
+}
