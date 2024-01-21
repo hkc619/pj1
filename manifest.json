@@ -1,6 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "recordVideoTimestamp",
+  "name": "BookmarkOfWebsite",
   "version": "1.0.1",
-  "description": "Record your video timestamp."
+  "description": "Bookmark your part of website.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "View your Bookmark!",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "./favicon_io/favicon-16x16.png"
+  },
+  "permissions": ["tabs"]
 }
